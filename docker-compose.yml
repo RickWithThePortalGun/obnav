@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: visual_enhancer
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    command: python run_prod_visual_enhanced.py
