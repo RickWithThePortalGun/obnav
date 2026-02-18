@@ -1,0 +1,6 @@
+opencv-python
+pyzmq
+msgpack
+msgpack-numpy
+pigpio
+cv2
